@@ -1,0 +1,110 @@
+/* this is a link test */
+    /* background-color: blue; */
+    main{
+        background-color: rgb(236, 230, 232);
+    }
+      
+    #navbarNav{
+        display:flex;
+        justify-content: flex-end;
+        padding-right: 2rem;
+    }
+
+    #navbarNav a:hover{
+        color: rosybrown;
+    }
+    
+    #hero{
+        background-image: url(https://images.unsplash.com/photo-1557409518-691ebcd96038?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    #hero h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 3rem;
+        color: rgb(242, 233, 233);
+        text-align: center;
+        padding-top: 08rem;
+    }
+    #hero p{
+        font-size: 1.5rem;
+        font-weight: 200;
+        color: rgb(238, 230, 230);
+        text-align: center;
+    }
+    #hero button{
+        background-color: rgb(237, 204, 215);
+        color: black;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+    #hero button:hover{
+        background-color: rgb(156, 97, 97);
+        color: black;
+    }
+    #destinations a{
+        background-color: rosybrown;
+        color: black;
+        border: none;
+    }
+    #destinations a:hover{
+        background-color: rgb(237, 204, 215);
+        color: black;
+    }
+    #destinations h1{
+        text-align: center;
+        padding: 1rem;
+        font-family: space-grotesk, sans-serif;
+    }
+    #circuits h1{
+        text-align: center;
+        padding: 1rem;
+        font-family: space-grotesk, sans-serif;
+    }
+    #circuits button{
+        background-color: rosybrown;
+        color: black;
+        font-family: space-grotesk, sans-serif;
+        font-size: medium;
+        border:none;
+    }
+    #submit{
+        background-color: rosybrown;
+        color: black;
+        border: none;
+    }
+    #submit:hover{
+        background-color: rgb(237, 204, 215);
+        color: black;
+    }
+    footer{
+        background-color: rgb(24, 23, 23);
+        color: white;
+        text-align: center;
+        padding: 2rem;
+    }
+    .social-media{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2rem;
+    }
+    #destinations{
+       padding: 4rem;
+       justify-content: center;
+    }
+    .card{
+         margin: 1rem;
+    }
+    #contact{
+        margin-top: 4rem;
+    }
+    #exampleFormControlInput1{
+        width: 50%;
+    }
+    #exampleFormControlTextarea1{
+        width: 50%;
+    }
